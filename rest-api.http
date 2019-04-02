@@ -1,11 +1,11 @@
-GET http://localhost:8080/document
+GET http://localhost:8080/myDocument
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 ###
 
-PUT http://localhost:8080/document/1
+PUT http://localhost:8080/myDocument/1
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
@@ -18,7 +18,7 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:8080/document/1
+GET http://localhost:8080/myDocument/1
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json

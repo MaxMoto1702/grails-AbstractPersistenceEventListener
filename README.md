@@ -1,5 +1,8 @@
 # Grails GORM Listener Problem
 
+- **GORM Version:** 6.1.11.RELEASE
+- **Grails Version:** 3.3.9
+
 ## Run
 
     ./grailsw run-app
