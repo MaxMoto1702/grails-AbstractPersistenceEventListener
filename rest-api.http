@@ -1,0 +1,26 @@
+GET http://localhost:8080/document
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8080/document/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "id": 1,
+  "number": "0001 updated",
+  "date": "2019-04-02T13:04:42Z",
+}
+
+###
+
+GET http://localhost:8080/document/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
